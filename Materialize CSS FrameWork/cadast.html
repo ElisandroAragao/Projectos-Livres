@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CADASTRAR-SE</title>
+
+    <!-- LINKS STYLES -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="shortcut icon" href="img/NeSInfo.ico" type="image/x-icon">
+</head>
+<body class="anuncio" onclick="anuncio()">
+
+    <!-- NAV BAR FIXED -->
+    <div class="navbar-fixed">
+        <nav class="responsive green z-deph-0">
+            <div class="nav-wrapper container hide-on-large-and-down">
+                <img class="hide-on-med-and-down responsive-img" id="logo" src="img/NeSInfo.ico" alt="">
+                <a id="logo-text" href="index.html" class="brand-logo left">NeSInfo</a>
+                <a href="" data-activates="menu-mobile" class="button-collapse right">
+                    <i class="material-icons hide-on-large-only">menu</i>
+                </a>
+    
+                <ul id="nav-mobile" class="right show-on-medium-and-down">
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="infor.html">Informações</a></li>
+                    <li class="active"><a href="cadast.html">Cadastrar</a></li>
+                    <li><a href="confirm.html">Confirmação</a></li>
+                    <li><a href="matri.html">Matricula</a></li>
+                    <li><a href="about.html">Sobre Nós</a></li>
+                </ul>
+
+                <ul id="menu-mobile" class="sidenav">
+                    <li><div class="user-view">
+                      <div class="background">
+                        <img src="images/office.jpg">
+                      </div>
+                      <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+                      <a href="#name"><span class="white-text name">John Doe</span></a>
+                      <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                    </div></li>
+                    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                    <li><a href="#!">Second Link</a></li>
+                    <li><div class="divider"></div></li>
+                    <li><a class="subheader">Subheader</a></li>
+                    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+                  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- FORMULARY -->
+    <div class="container responsive">
+        <form action="cadast-curso.html" method="get">
+            <div id="cadastre-inst" class="container">
+                <h2 id="h2">Cadastrar Instituição</h2>
+                <div class="row">
+                    <form class="col s12">
+                        <!-- INSTITUTE NAME -->
+                        <div class="row">
+                            <div class="input-field col s9">
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">Nome da Instituição</label>
+                            </div>
+                        </div>
+    
+                        <!-- NIF -->
+                        <div class="row">
+                            <div class="input-field col s6">
+                            <input type="text" id="last_name" class="validate">
+                            <label for="last_name">NIF</label>
+                            </div>
+                        </div>
+    
+                        <!-- EMAIL -->
+                        <div id="email" class="row">
+                            <form class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s9">
+                                    <input style="margin-left: 10px;" id="email" type="email" class="validate">
+                                    <label style="left: 20px;" for="email">Email</label>
+                                    <span style="margin-left: 10px;" class="helper-text" data-error="Inválido" data-success="Válido"></span>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+    
+                        <!-- PASSWORD -->
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="password" type="password" class="validate" data-length="15">
+                                <label for="password">Senha</label>
+                                <span class="helper-text" data-error="Senha Fraca" data-success="Senha Aceite"></span>
+                            </div>
+                        </div>
+    
+                        <!-- CONFIRMATION PASSWORD -->
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="confirm_password" type="password" class="validate" data-length="15">
+                                <label for="password">Confirmar Senha</label>
+                                <span class="helper-text" data-error="Senha Errada" data-success="Senha Aceite"></span>
+                            </div>
+                        </div>
+                            
+                        <!-- CONTACT -->
+                        <div class="row">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="contact" type="tel" class="validate" data-length="9">
+                                    <label for="contact">Contacto</label>
+                                    <span class="helper-text" data-error="Contacto Incorrecto" data-success="Contacto Aceite"></span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <button id="cadastre-btn" class="btn waves-effect darken-2">Cadastrar</button>
+                        </form>
+                    </div>
+            </div>
+        </form>
+    </div>
+    
+    <!-- FLOATING ACTION BUTTONS MENU -->
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large green">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul>
+            <li>
+                <a class="btn-floating blue">
+                    <i class="material-icons">insert_chart</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating yellow darken-1">
+                    <i class="material-icons">info</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating green">
+                    <i class="material-icons">person_add</i>
+                </a>    
+            </li>
+            <li>
+                <a class="btn-floating green">
+                    <i class="material-icons">saved_search</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating green">
+                    <i class="material-icons">app_registration</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating blue">
+                    <i class="material-icons">communication</i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/materialize.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

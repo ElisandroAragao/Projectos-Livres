@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATRICULA</title>
+
+    <!-- LINKS STYLES -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="shortcut icon" href="img/NeSInfo.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- NAV BAR FIXED -->
+    <div class="navbar-fixed">
+        <nav class="responsive green z-deph-0">
+            <div class="nav-wrapper container hide-on-large-and-down">
+                <img class="hide-on-med-and-down responsive-img" id="logo" src="img/NeSInfo.ico" alt="">
+                <a id="logo-text" href="index.html" class="brand-logo left">NeSInfo</a>
+                <a href="" data-activates="menu-mobile" class="button-collapse right">
+                    <i class="material-icons hide-on-large-only">menu</i>
+                </a>
+    
+                <ul id="nav-mobile" class="right show-on-medium-and-down">
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="infor.html">Informações</a></li>
+                    <li><a href="cadast.html">Cadastrar</a></li>
+                    <li><a href="confirm.html">Confirmação</a></li>
+                    <li class="active"><a href="matri.html">Matricula</a></li>
+                    <li><a href="about.html">Sobre Nós</a></li>
+                </ul>
+
+                <ul id="menu-mobile" class="sidenav">
+                    <li><div class="user-view">
+                      <div class="background">
+                        <img src="images/office.jpg">
+                      </div>
+                      <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+                      <a href="#name"><span class="white-text name">John Doe</span></a>
+                      <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                    </div></li>
+                    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                    <li><a href="#!">Second Link</a></li>
+                    <li><div class="divider"></div></li>
+                    <li><a class="subheader">Subheader</a></li>
+                    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+                  <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- SEARCH ID AREA -->
+    <div id="area" class="container responsive">
+        <!-- PARAGRAPH -->
+        <div id="alert-content">
+            <p>Insira o nome do Curso que pretende pesquisa no campo abaixo.</p>
+        </div>
+        
+        <form action="inst-list.html" method="get">
+            <nav class="container" id="search-area">
+                <div class="nav-wrapper">
+                <form>
+                    <div class="input-field">
+                    <input id="search" type="search" required>
+                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                    </div>
+                </form>
+                </div>
+            </nav>
+        </form>
+    </div>
+    
+    <!-- FLOATING ACTION BUTTONS MENU -->
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large green">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul>
+            <li>
+                <a class="btn-floating blue">
+                    <i class="material-icons">insert_chart</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating yellow darken-1">
+                    <i class="material-icons">info</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating green">
+                    <i class="material-icons">person_add</i>
+                </a>    
+            </li>
+            <li>
+                <a class="btn-floating green">
+                    <i class="material-icons">saved_search</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating green">
+                    <i class="material-icons">app_registration</i>
+                </a>
+            </li>
+            <li>
+                <a class="btn-floating blue">
+                    <i class="material-icons">communication</i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+
+    <!-- MATERIALIZE JAVASCRIPT -->
+    <script src="js/materialize.js"></script>
+</body>
+</html>

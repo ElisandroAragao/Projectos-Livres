@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmation</title>
+
+    <!-- Links Styles CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <!-- Nav Menu & Side Nav Menu -->
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+        <div class="containe">
+            <a href="index.html" id="link" class="navbar-brand d-flex align-items-center">
+               <i src="imgs/logo-2.jpg" class=""></i> NeSInfo</a>
+            <button id="menu" class="navbar-toggler text-end" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="menuNavbar">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-link">Página Inicial</a>
+                    <a href="information.html" class="nav-link">Informação</a>
+                    <a href="confirmation.html" class="nav-link active" style="padding-top: 5px; border-bottom: 2px solid #026aff; transition: .7s ease-in;">Confirmação</a>
+                    <a href="register.html" class="nav-link">Matrícula</a>
+                    <a href="about-us.html" class="nav-link">Sobre Nós</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Notification -->
+    <div class="container my-3">
+        <div class="toast" data-bs-delay="5000">
+            <div class="toast-body">
+                Chegaram novas mensagens para si
+                <div class="mt-2 pt-2 border-top">
+                    <button class="btn btn-primary btn-sm">Visualizar</button>
+                    <button class="btn btn-secundary btn-sm" data-bs-dismiss="toast">Ignorar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Alert Mensage -->
+    <div class="alert container container-sm py-2">
+        <div class="alert alert-danger alert-dismissible fade show">
+            <h4 class="alert-heading">
+                <i class="bi-info-circle"></i> Alerta
+            </h4>
+
+            <p class="lead">Este é um campo restrito. Só pode acessar o formulário seguinte se você possuí um ID de estudante gerado pelo nosso sistema. Caso não tenha, então não será possível preencher o campo porque os seus dados não serão validados.</p>
+
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    </div>
+
+    <!-- Search Area -->
+    <div class="container col-7">
+        <p class="lead text text-center">Insira o seu ID gerado pelo sistema para encontrar o seu formulário.</p>
+        <form class="d-flex" action="confirmation-form.html" method="post">
+            <div class="input-group">
+                <input type="search" id="buscar" class="form-control" placeholder="Buscar..." required>
+                <button type="submit" class="btn btn-outline-success">Pesquisar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

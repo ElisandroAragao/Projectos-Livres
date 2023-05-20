@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        .h100{
+            height: 100px;
+        }
+
+        .h400{
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar bg-dark navbar-dark">
+        <div class="container">
+            <a href="" class="navbar-brand">NeSInfo</a>
+            <div class="navbar-expand-sm">
+                <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#painel">Menu</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate laboriosam nisi cumque debitis vel deleniti, itaque perspiciatis dolor eum magnam corporis rerum, asperiores nulla rem totam recusandae animi, quod corrupti.</p>
+        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate laboriosam nisi cumque debitis vel deleniti, itaque perspiciatis dolor eum magnam corporis rerum, asperiores nulla rem totam recusandae animi, quod corrupti.</p>
+        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate laboriosam nisi cumque debitis vel deleniti, itaque perspiciatis dolor eum magnam corporis rerum, asperiores nulla rem totam recusandae animi, quod corrupti.</p>
+        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate laboriosam nisi cumque debitis vel deleniti, itaque perspiciatis dolor eum magnam corporis rerum, asperiores nulla rem totam recusandae animi, quod corrupti.</p>
+        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate laboriosam nisi cumque debitis vel deleniti, itaque perspiciatis dolor eum magnam corporis rerum, asperiores nulla rem totam recusandae animi, quod corrupti.</p>
+    </div>
+
+    <div class="container my-5">
+        <div class="offcanvas offcanvas-start show" id="painel" tabindex="-1" data-bs-scroll="true" data-bs-backdrop="static" style="--bs-offcanvas-width: 250px;">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Menu Navegante</h5>
+                <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+
+            <div class="offcanvas-body">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container spinner-border text-danger spinner-border-md">
+        <p class="display-1">Loading</p>
+    </div>
+
+    <br>
+
+    <div class="btn-group">
+        <input type="checkbox" id="btn1" class="btn-check">
+        <label for="bnt1" class="btn-outline-primary">Botão de Checagem 1</label>
+
+        <input type="checkbox" id="btn2" class="btn-check">
+        <label for="bnt2" class="btn-outline-primary">Botão de Checagem 2</label>
+
+        <input type="checkbox" id="btn3" class="btn-check">
+        <label for="bnt3" class="btn-outline-primary">Botão de Checagem 3</label>
+    </div>
+
+    <br>
+    <!-- FORMULARY LAYOUT -->
+    <div class="container">
+        <form action="">
+            <!-- <div class="row mb-3">
+                <label for="email" class="col-form-label col-6 text-end">E-mail:</label>
+                <div class="col-6 text-end">
+                    <input type="email" id="email" class="form-control">
+                </div>
+            </div>
+            <hr> -->
+
+            <h1 class="display-3">Endereço</h1>
+            <hr>
+
+            <div class="row mb-3 g-2">
+                <div class="col-7">
+                    <label for="logradouro" class="form-label">Logradouro</label>
+                    <input type="text" id="logradouro" class="form-control">
+                </div>
+                <div class="col-2">
+                    <label for="numero" class="form-label">Número</label>
+                    <input type="text" id="numero" class="form-control">
+                </div>
+                <div class="col-3">
+                    <label for="complemento" class="form-label">Complemento</label>
+                    <input type="text" id="complemento" class="form-control">
+                </div>
+
+                <div class="col-6">
+                    <label for="bairro" class="form-label">Bairro</label>
+                    <input type="text" id="bairro" class="form-control">
+                </div>
+                <div class="col-6">
+                    <label for="cidade" class="form-label">Cidades</label>
+                    <input type="text" id="cidade" class="form-control">
+                </div>
+
+                <div class="col-6">
+                    <label for="estado" class="form-label">Estado</label>
+                    <input type="text" id="estado" class="form-control">
+                </div>
+                <div class="col-2">
+                    <label for="cep" class="form-label">CEP</label>
+                    <input type="text" id="cep" class="form-control">
+                </div>
+            </div>
+        </form>
+
+        <button class="btn btn-primary">Enviar</button>
+        <hr>
+    </div>
+
+    <!-- FORMULARY -->
+    <div class="container">
+        <h2 class="">Formulário de Matrícula</h2>
+        <form action="">
+            <div class="mb-3">
+                <label for="email" class="form-email">E-mail</label>
+                <input type="email" id="email" class="form-control">
+                <div class="form-text">Nunca compartilharemos o seu email co terceiros...</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="senha" class="form-label">Senha</label>
+                <input type="text" id="senha" class="form-control">
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" id="lembrar" class="form-check-input">
+                <label for="lembrar" class="form-check-label">Lembrar para mim</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Entrar</button>
+        </form>
+        <hr>
+
+        <input type="file" id="arquivo" class="form-control">
+    </div>
+
+    <br><br><br>
+    <!-- TABLE -->
+    <div class="container">
+        <table class="table table-striped table-hover table-bordered table-sm">
+            <thead>
+                <tr>
+                    <td>Coluna 1</td>
+                    <td>Coluna 2</td>
+                    <td>Coluna 3</td>
+                    <td>Coluna 4</td>
+                    <td>Coluna 5</td>
+                    <td>Coluna 6</td>
+                </tr>
+            </thead>
+
+            <tbody class="table-group-divider">
+                <tr>
+                    <td>Item 1</td>
+                    <td>Item 2</td>
+                    <td>Item 3</td>
+                    <td>Item 4</td>
+                    <td>Item 5</td>
+                    <td>Item 6</td>
+                </tr>
+                <tr>
+                    <td>Item 1</td>
+                    <td>Item 2</td>
+                    <td>Item 3</td>
+                    <td>Item 4</td>
+                    <td>Item 5</td>
+                    <td>Item 6</td>
+                </tr>
+                <tr>
+                    <td>Item 1</td>
+                    <td>Item 2</td>
+                    <td>Item 3</td>
+                    <td>Item 4</td>
+                    <td>Item 5</td>
+                    <td>Item 6</td>
+                </tr>
+                <tr>
+                    <td>Item 1</td>
+                    <td>Item 2</td>
+                    <td>Item 3</td>
+                    <td>Item 4</td>
+                    <td>Item 5</td>
+                    <td>Item 6</td>
+                </tr>
+                <tr>
+                    <td>Item 1</td>
+                    <td>Item 2</td>
+                    <td>Item 3</td>
+                    <td>Item 4</td>
+                    <td>Item 5</td>
+                    <td>Item 6</td>
+                </tr>
+                <tr>
+                    <td>Item 1</td>
+                    <td>Item 2</td>
+                    <td>Item 3</td>
+                    <td>Item 4</td>
+                    <td>Item 5</td>
+                    <td>Item 6</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- IMG & VIDEO RESPONSIVE -->
+    <div class="container">
+        <img src="img/1.jpg" alt="Imagem Responsiva" class="img-thumbnail"><br><br>
+        <img src="img/2.jpg" alt="Imagem Responsiva" class="img-fluid rounded">
+
+        <br><br>
+        <img src="imgs/p1.png" alt="Imagem Responsiva" class="img-thumbnail float-start me-3">
+        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ducimus suscipit non distinctio corrupti a ex exercitationem aliquam dolores similique labore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ducimus suscipit non distinctio corrupti a ex exercitationem aliquam dolores similique labore.</p>
+    </div>
+
+    <!-- ITEM LIST -->
+    <div class="container">
+        <ul class="list-unstyled">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+            <li>Item 6</li>
+        </ul>
+
+        <hr>
+
+        <ul class="list-inline">
+            <li class="list-inline-item">Item 1</li>
+            <li class="list-inline-item">Item 2</li>
+            <li class="list-inline-item">Item 3</li>
+            <li class="list-inline-item">Item 4</li>
+            <li class="list-inline-item">Item 5</li>
+            <li class="list-inline-item">Item 6</li>
+        </ul>
+    </div>
+
+    <!-- TYPOGHRAPHY -->
+    <div class="container">
+        <figure>
+            <blockquote class="blockquote">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ducimus suscipit non distinctio corrupti a ex exercitationem aliquam dolores similique labore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ducimus suscipit non distinctio corrupti a ex exercitationem aliquam dolores similique labore.</p>
+            </blockquote>
+
+            <figcaption class="blockquote-footer">
+                <cite>Luisandro Aragão</cite>; criador deste web site.
+            </figcaption>
+        </figure>
+    </div>
+
+    <!-- RESPONSIVE ROWS -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 bg-dark bg-opacity-50 h100"></div>
+            <div class="col-12 col-sm-3 bg-dark bg-opacity-75 h400"></div>
+            <div class="col-12 col-sm-9 bg-dark bg-opacity-25 h400"></div>
+            <div class="col-12 bg-dark bg-opacity-50 h100"></div>
+        </div>
+    </div>
+
+    <!-- **** -->
+    <div class="container-fluid bg-info">
+        <h1>Containers</h1>
+
+        <hr>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ducimus suscipit non
+            distinctio corrupti a ex exercitationem aliquam dolores similique labore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ducimus suscipit non distinctio corrupti a ex exercitationem aliquam dolores similique labore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ducimus suscipit non
+            distinctio corrupti a ex exercitationem aliquam dolores similique labore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ducimus suscipit non distinctio corrupti a ex exercitationem aliquam dolores similique labore.</p>
+    </div>
+
+    <!-- BREAKPOINTS -->
+    <div class="text-center text-md-start txt-xl-end">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ducimus suscipit non
+        distinctio corrupti a ex exercitationem aliquam dolores similique labore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam ducimus suscipit non distinctio corrupti a ex exercitationem aliquam dolores similique labore.
+    </div>
+
+    <!-- TABLE -->
+    <div class="container">
+        <table class="table">
+            <tr>
+                <td>Coluna 1</td>
+                <td>Coluna 2</td>
+                <td>Coluna 3</td>
+                <td>Coluna 4</td>
+                <td>Coluna 5</td>
+                <td>Coluna 6</td>
+            </tr>
+            <tr>
+                <td>Coluna 1</td>
+                <td>Coluna 2</td>
+                <td>Coluna 3</td>
+                <td>Coluna 4</td>
+                <td>Coluna 5</td>
+                <td>Coluna 6</td>
+            </tr>
+            <tr>
+                <td>Coluna 1</td>
+                <td>Coluna 2</td>
+                <td>Coluna 3</td>
+                <td>Coluna 4</td>
+                <td>Coluna 5</td>
+                <td>Coluna 6</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

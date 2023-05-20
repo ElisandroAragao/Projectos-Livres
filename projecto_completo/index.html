@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeSInfo</title>
+
+    <!-- Links Style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="main-part">
+    
+    <!-- Nav Menu & Side Nav Menu -->
+    <nav class="navbar bg-dark navbar-dark navbar-expand-sm">
+        <div class="container">
+            <a href="index.html" id="link" class="navbar-brand d-flex align-items-center">
+               <i src="imgs/logo-2.jpg" class=""></i> NeSInfo</a>
+            <button id="menu" class="navbar-toggler text-end" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="menuNavbar">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-link active"  style="padding-top: 5px; border-bottom: 2px solid #026aff; transition: .5s;">Página Inicial</a>
+                    <a href="information.html" class="nav-link">Informação</a>
+                    <a href="confirmation.html" class="nav-link">Confirmação</a>
+                    <a href="register.html" class="nav-link">Matrícula</a>
+                    <a href="about-us.html" class="nav-link">Sobre Nós</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Side Nav Menu -->
+    <!-- <div class="container my-5">
+        <div class="offcanvas offcanvas-start show" id="painel" tabindex="-1" data-bs-scroll="true" data-bs-backdrop="static" style="--bs-offcanvas-width: 250px;">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Menu Navegante</h5>
+                <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+
+            <div class="offcanvas-body">
+
+            </div>
+        </div>
+    </div> -->
+
+    <!-- Carousel Slider -->
+    <div id="container-slider" class="container py-3">
+        <div class="carousel slide" data-bs-ride="carousel" id="ads">
+            <div class="carousel-indicators" style="bottom: -80px;">
+                <button class="active" data-bs-target="#ads" data-bs-slide-to="0"></button>
+                <button data-bs-target="#ads" data-bs-slide-to="1"></button>
+                <button data-bs-target="#ads" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imgs/polo1/20171205_150704.jpg" class="d-block w-100 h100 rounded">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/polo2/20210916_092726.jpg" class="d-block w-100 h100 rounded">
+                </div>
+                <div class="carousel-item">
+                    <img src="imgs/polo3/EFTSS.jpg" class="d-block w-100 h100 rounded">
+                </div>
+
+                <button class="carousel-control-prev" data-bs-target="#ads" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#ads" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards 1 -->
+    <div id="container" class="container py-3">
+        <h1 style="text-align: center;" class="center-align display-3">Instituições com Maiores Aderências</h1>
+        <hr>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">   
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imgs/1.jpg?random=1" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Instituto Politécnico Privado Sapemua</h4>
+                        <!-- Show Conteudo -->
+                        <p>
+                            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel">Abrir</button>
+                            <button id="close-btn-info" class="btn btn-secundary" data-bs-toggle="collapse" data-bs-target="#painel">Fechar</button>
+                        </p>
+                        <p class="card-text">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                        <div class="collapse" id="painel">
+                            <p class="lead">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                        </div>
+
+                        <a href="instituty/inst-1.html" class="card-link">Saber Mais</a>
+                    </div>
+                    <p class="card-footer">Rodapé</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imgs/3.jpg?random=2" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Instituto Técnico Privado Sapemua</h4>
+                        <!-- Show Conteudo -->
+                        <p>
+                            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel">Abrir</button>
+                            <button id="close-btn-info" class="btn btn-secundary" data-bs-toggle="collapse" data-bs-target="#painel">Fechar</button>
+                        </p>
+                        <p class="card-text">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                        <div class="collapse" id="painel">
+                            <p class="lead">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                        </div>
+
+                        <a href="instituty/inst-2.html" class="card-link">Saber Mais</a>
+                    </div>
+                    <p class="card-footer">Rodapé</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imgs/5.jpg?random=3" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Instituto Técnico Privado Sapemua</h4>
+                        <p class="card-text">
+                            <!-- Show Conteudo -->
+                            <p>
+                                <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel">Abrir</button>
+                                <button id="close-btn-info" class="btn btn-secundary" data-bs-toggle="collapse" data-bs-target="#painel">Fechar</button>
+                            </p>
+                            <p class="card-text">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                            <div class="collapse" id="painel">
+                                <p class="lead">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                            </div>
+                        </p>
+
+                        <a href="instituty/inst-2.html" class="card-link">Saber Mais</a>
+                    </div>
+                    <p class="card-header">Rodapé</p>
+                </div>
+            </div>
+  
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imgs/1.jpg?random=1" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Instituto Técnico Privado Polivalente Tchiwana</h4>
+                        <!-- Show Conteudo -->
+                        <p>
+                            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel">Abrir</button>
+                            <button id="close-btn-info" class="btn btn-secundary" data-bs-toggle="collapse" data-bs-target="#painel">Fechar</button>
+                        </p>
+                        <p class="card-text">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                        <div class="collapse" id="painel">
+                            <p class="lead">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                        </div>
+
+                        <a href="instituty/inst-3.html" class="card-link">Saber Mais</a>
+                    </div>
+                    <p class="card-footer">Rodapé</p>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imgs/3.jpg?random=2" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Instituto Técnico Privado Polivalente Tchiwana</h4>
+                        <p class="card-text">
+                            <!-- Show Conteudo -->
+                            <p>
+                                <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel">Abrir</button>
+                                <button id="close-btn-info" class="btn btn-secundary" data-bs-toggle="collapse" data-bs-target="#painel">Fechar</button>
+                            </p>
+                            <p class="card-text">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                            <div class="collapse" id="painel">
+                                <p class="lead">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                            </div>
+                        </p>
+
+                        <a href="instituty/inst-3.html" class="card-link">Saber Mais</a>
+                    </div>
+                    <p class="card-header">Rodapé</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imgs/5.jpg?random=3" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Instituto Técnico Privado Polivalente Tchiwana</h4>
+                        <p class="card-text">
+                            <!-- Show Conteudo -->
+                            <p>
+                                <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel">Abrir</button>
+                                <button id="close-btn-info" class="btn btn-secundary" data-bs-toggle="collapse" data-bs-target="#painel">Fechar</button>
+                            </p>
+                            <p class="card-text">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                            <div class="collapse" id="painel">
+                                <p class="lead">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                            </div>
+                        </p>
+
+                        <a href="instituty/inst-3.html" class="card-link">Saber Mais</a>
+                    </div>
+                    <p class="card-header">Rodapé</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div id="container" class="container py-3">
+        <h1 style="text-align: center;" class="center-align display-3">Instituições Adicionadas Recentemente</h1>
+        <hr>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">   
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imgs/1.jpg?random=1" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Instituto Politécnico Privado Sapemua</h4>
+                        <!-- Show Conteudo -->
+                        <p>
+                            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel">Abrir</button>
+                            <button id="close-btn-info" class="btn btn-secundary" data-bs-toggle="collapse" data-bs-target="#painel">Fechar</button>
+                        </p>
+                        <p class="card-text">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                        <div class="collapse" id="painel">
+                            <p class="lead">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                        </div>
+
+                        <a href="instituty/inst-1.html" class="card-link">Saber Mais</a>
+                    </div>
+                    <p class="card-footer">Rodapé</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imgs/3.jpg?random=2" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Instituto Técnico Privado Sapemua</h4>
+                        <!-- Show Conteudo -->
+                        <p>
+                            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel">Abrir</button>
+                            <button id="close-btn-info" class="btn btn-secundary" data-bs-toggle="collapse" data-bs-target="#painel">Fechar</button>
+                        </p>
+                        <p class="card-text">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                        <div class="collapse" id="painel">
+                            <p class="lead">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                        </div>
+
+                        <a href="instituty/inst-2.html" class="card-link">Saber Mais</a>
+                    </div>
+                    <p class="card-footer">Rodapé</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imgs/5.jpg?random=3" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Instituto Técnico Privado Sapemua</h4>
+                        <p class="card-text">
+                            <!-- Show Conteudo -->
+                            <p>
+                                <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel">Abrir</button>
+                                <button id="close-btn-info" class="btn btn-secundary" data-bs-toggle="collapse" data-bs-target="#painel">Fechar</button>
+                            </p>
+                            <p class="card-text">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                            <div class="collapse" id="painel">
+                                <p class="lead">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                            </div>
+                        </p>
+
+                        <a href="instituty/inst-2.html" class="card-link">Saber Mais</a>
+                    </div>
+                    <p class="card-header">Rodapé</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imgs/1.jpg?random=1" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Instituto Técnico Privado Polivalente Tchiwana</h4>
+                        <!-- Show Conteudo -->
+                        <p>
+                            <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel">Abrir</button>
+                            <button id="close-btn-info" class="btn btn-secundary" data-bs-toggle="collapse" data-bs-target="#painel">Fechar</button>
+                        </p>
+                        <p class="card-text">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                        <div class="collapse" id="painel">
+                            <p class="lead">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                        </div>
+
+                        <a href="instituty/inst-3.html" class="card-link">Saber Mais</a>
+                    </div>
+                    <p class="card-footer">Rodapé</p>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imgs/3.jpg?random=2" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Instituto Técnico Privado Polivalente Tchiwana</h4>
+                        <p class="card-text">
+                            <!-- Show Conteudo -->
+                            <p>
+                                <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel">Abrir</button>
+                                <button id="close-btn-info" class="btn btn-secundary" data-bs-toggle="collapse" data-bs-target="#painel">Fechar</button>
+                            </p>
+                            <p class="card-text">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                            <div class="collapse" id="painel">
+                                <p class="lead">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                            </div>
+                        </p>
+
+                        <a href="instituty/inst-3.html" class="card-link">Saber Mais</a>
+                    </div>
+                    <p class="card-header">Rodapé</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="imgs/5.jpg?random=3" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h4 class="card-title">Instituto Técnico Privado Polivalente Tchiwana</h4>
+                        <p class="card-text">
+                            <!-- Show Conteudo -->
+                            <p>
+                                <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#painel">Abrir</button>
+                                <button id="close-btn-info" class="btn btn-secundary" data-bs-toggle="collapse" data-bs-target="#painel">Fechar</button>
+                            </p>
+                            <p class="card-text">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                            <div class="collapse" id="painel">
+                                <p class="lead">Uma das mais chamativas na sua localidade, possuí professores qualificados para o ensino como também tem uma infra-extrutura bem chamativa no seu bairro e que possuí optimos cursos técnicos para qualquer estudante.</p>
+                            </div>
+                        </p>
+
+                        <a href="instituty/inst-3.html" class="card-link">Saber Mais</a>
+                    </div>
+                    <p class="card-header">Rodapé</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pagination -->
+    <ul id="pagination" class="pagination">
+        <li class="page-item"><a class="page-link" href="">1</a></li>
+        <li class="page-item"><a class="page-link" href="">2</a></li>
+        <li class="page-item"><a class="page-link" href="">3</a></li>
+        <li class="page-item disabled"><a class="page-link" href="">4</a></li>
+        <li class="page-item disabled"><a class="page-link" href="">5</a></li>
+    </ul>
+
+    <!-- Links JavaScript -->
+    <link rel="stylesheet" href="js/script.js">
+    <link rel="stylesheet" href="js/bootstrap.bundle.min.js">
+</body>
+</html>

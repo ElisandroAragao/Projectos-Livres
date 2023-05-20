@@ -1,0 +1,612 @@
+@charset "UTF-8";
+
+ /* valid color */
+ .input-field input[type=password].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* invalid color */
+  .input-field input[type=password].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Times New Roman', serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#alert-content{
+    text-align: center;
+    font-size: 16pt;
+}
+
+#area{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#btn-large-1{
+    left: 100px;
+    position: relative;
+    top: -7px;
+}
+
+#btn-large-1:hover{
+    color: #000;
+    background-color: #96bbffec;
+    transition: .6s ease-in-out;
+}
+
+#btn-large-2{
+    left: 445px;
+    position: relative;
+    top: -6px;
+}
+
+#btn-large-2:hover{
+    color: #000;
+    background-color: #96bbffec;
+    transition: .6s ease-in-out;
+}
+
+#btn-large-3{
+    left: 435px;
+    position: relative;
+    top: -112px;
+}
+
+#btn-large-3:hover{
+    color: #000;
+    background-color: #96bbffec;
+    transition: .6s ease-in-out;
+}
+
+#btn-large-4{
+    left: 765px;
+    position: relative;
+    top: -185px;
+}
+
+#btn-large-4:hover{
+    color: #000;
+    background-color: #96bbffec;
+    transition: .6s ease-in-out;
+}
+
+#btn-large-5{
+    left: 95px;
+    position: relative;
+    top: -8px;
+}
+
+#btn-large-5:hover{
+    color: #000;
+    background-color: #96bbffec;
+    transition: .6s ease-in-out;
+}
+
+#btn-large-6{
+    left: 435px;
+    position: relative;
+    top: -8px;
+}
+
+#btn-large-6:hover{
+    color: #000;
+    background-color: #96bbffec;
+    transition: .6s ease-in-out;
+}
+
+#btn-large-7{   
+    left: 760px;
+    position: relative;
+    top: -8px;
+}
+
+#btn-large-7:hover{
+    color: #000;
+    background-color: #96bbffec;
+    transition: .6s ease-in-out;
+}
+
+#btn-large-8{
+    left: 765px;
+    position: relative;
+    top: -143px;
+}
+
+#btn-large-8:hover{
+    color: #000;
+    background-color: #96bbffec;
+    transition: .6s ease-in-out;
+}
+#btn-more{
+    margin: 30px;
+    height: 50px;
+    width: 180px;
+    padding: 10px;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: -2px 3px 5px rgb(0 0 0 / 40%);
+    background-color: #d1d1d1;
+    border-radius: 6px;
+    cursor: pointer;
+    left: 35px;
+    position: relative;
+    font-family: Times, sans-serif;
+    font-size: 10pt;
+    font-weight: 500;
+}
+
+#btn-more:hover{
+    text-decoration: underline;
+    background-color: #388e3c;
+}
+
+#btn-link #btn-more:hover{
+    color: #fff;
+}
+
+#cadastre-inst{
+    background-color: #edece2;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    width: 60%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0.5px 1px 5px #000;
+}
+
+#cadastre-btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    top: auto;
+    left: 25%;
+    border-radius: 5px;
+    width: 300px;
+    position: relative;
+    height: 50px;
+    transition: .5s ease;
+}
+
+#cadastre-btn:hover{
+    background-color: #f1db11;
+    color: #000;
+    font-family: Times, serif;
+    font-size: 13pt;
+    font-weight: bolder;
+    text-decoration: underline;
+    transition: 1s all;
+    transform: rotateZ(360deg);
+}
+
+#card-content span{
+    text-align: left;
+    font-weight: bold;
+}
+
+#card-content p{
+    text-align: justify;
+    text-indent: 35px;
+    font-family: Times, sans-serif;
+}
+
+#card-reveal span{ 
+    text-align: left;
+    font-weight: bold;
+}
+
+#card-reveal p{
+    text-align: justify;
+    text-indent: 35px;
+    font-family: Times, sans-serif;
+}
+
+#card-img{
+    width: 100%;
+    height: 185px;
+
+}
+
+#carousel-img1{
+    height: 100vh;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+}
+
+#carousel-img2{
+    background: url("../img/20171205_150708.jpg");
+}
+
+#carousel-img3{
+    background: url("../img/cup-of-coffee-1280537__480.jpg");
+}
+
+#carousel-img4{
+    background: url("../img/people-2557399__480.jpg");
+}
+
+#column-left{
+    margin-left: 0px;
+    flex-direction: column;
+}
+
+#column-right{
+    margin-left: 65px;
+}
+
+#coment{
+    padding-left: 20px;
+    text-align: left;
+}
+
+#devel-content{
+    padding-left: 10px;
+    text-indent: 35px;
+}
+
+#devel-content-p{
+    text-align: justify;
+    padding-right: 10px;
+}
+
+#email{
+    margin-bottom: 0px;
+}
+
+#en{
+    position: relative;
+    font-size: 17px;
+    font-family: Times, sans-serif;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px;
+    width: 315px;
+    display: inline-block;
+    color: white;
+    background-color: #409f4a;
+    text-align: center;
+}
+
+#falta{
+    display: block;
+}
+
+#falta-camp{
+    box-sizing: border-box;
+    width: 330px;
+}
+
+#falta label{
+    position: relative;
+    padding-left: 15px;
+    font-size: 13pt;
+    font-family: Times, sans-serif;
+}
+
+#falta input{
+    border-radius: 5px;
+    border: 1px solid white;
+    background: #ffffffb3;
+    color: #000;
+    box-sizing: border-box;
+    outline: none;
+    margin-left: 15px;
+}
+
+#imgs{
+    width: 1348px;
+    top: 0px;
+    position: relative;
+    margin-left: -175px;
+    height: 100vh;
+}
+
+#img-front{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+#infor{
+    background: #17161396;
+    color: white;
+    position: relative;
+    height: 690px;
+    border-top: 60px solid #fbb448;
+    border-radius: 3px;
+}
+
+.nav-wrapper .input-field input[type=search]{
+    background-color: #dedede;
+    border-radius: 28px;
+}
+
+#h2{
+    font-family: Times, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a19898;
+    margin-top: 16px;
+    text-align: center;
+}
+
+#h3{
+    padding-left: 10px;
+    text-indent: 50px;
+}
+
+#logo{
+    width: 100px;
+    height: 65px;
+    padding-right: 20px;
+    margin-left: -202px;
+}
+
+#logo-text{
+    margin-left: -10px;
+}
+
+
+#card2{
+    position: relative;
+    margin-top: -587px;
+    left: 335px;
+}
+
+#card3{
+    position: relative;
+    margin-top: -615px;
+    left: 670px;
+}
+
+#card4{
+    position: relative;
+    margin-top: -690px;
+    left: 1004px;
+}
+
+#card5{
+    margin-top: -55px;
+    left: -4px;
+}
+
+#card6{
+    position: relative;
+    margin-top: -588px;
+    left: 330px;
+    height: 493px;
+}
+
+#card7{
+    position: relative;    
+    margin-top: -616px;
+    left: 665px;
+    height: 493px;
+}
+
+#card8{
+    position: relative;
+    margin-top: -643px;
+    left: 1000px;
+    height: 493px;
+}
+
+#card5 img{
+    height: 185px;
+}
+
+#card6 img{
+    height: 185px;
+}
+
+#card8 img{
+    height: 185px;
+}
+
+#guess-card{
+    position: relative;
+    margin-top: 10px;
+}
+
+#guess-card-2{
+    margin-top: -120px;
+}
+
+#menu-mobile{
+    background-color: #333533bd;
+    display: block;
+}
+
+#nav-mobile{
+    margin-left: 100px;
+}
+
+#pessoa{
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+#repro{
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+#row{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    width: 700px;
+}
+
+#search-area{
+    width: 450px; 
+    border-radius: 40px; 
+    box-shadow: 0px 2px 5px #000;
+}
+
+#slider-img1{
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    background: url("../img/polo1/IMG_20210105_091436.jpg");
+    left: 0px;
+}
+
+#slider-img2{
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    background: url("../img/polo2/20210916_094733.jpg");
+    left: 0px;
+}
+
+#slider-img3{
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    background: url("../img/polo3/IMG_20220615_154238_281.jpg");
+    left: 0px;
+}
+
+#slider-img4{
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    background: url("../img/polo1/20171205_151253.jpg");
+    left: 0px;
+}
+
+#wel{
+    width: 50%;
+    position: relative;
+    height: 90px;
+    top: 460px;
+    z-index: 1;
+    color: #fff;
+    font-family: Arial;
+    border-radius: 6px;
+    font-size: 18pt;
+    font-weight: bolder;
+    margin-top: 15px;
+    text-transform: uppercase;
+    background-color: #000000cf;
+    margin-bottom: 15px;
+    box-shadow: 0px 2px 6px rgb(0 0 0 / 60%);
+    padding-top: 10px;
+}
+
+#welcome-p{
+    text-align: center;
+}
+
+h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+li{
+    list-style: none;
+}
+
+.tabela{
+    margin-top: 30px;
+    text-align: center;
+}
+
+/** SEARCH AREA CSS */
+.id{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 15pt;
+    font-weight: 600;
+    font-family: times new roman, sans-serif;
+}
+
+.search-box{
+    position: relative;
+    background: #fff;
+    height: 50px;
+    left: -450px;
+    transform: translate(450px, 10px);
+    margin-bottom: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+::-webkit-input-placeholder{
+    font-size: 15pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans','Helvetica Neue', sans-serif;
+    color: #aeaeae;
+}
+  
+#text-area{
+    background: none;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    padding: 0 ;
+    width: 0;
+    transition: .6s;
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+.pesq-button{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+  
+.search-box:hover > #text-area{
+    background-color: #aeaeae;
+    border-radius: 50px;
+    width: 530px;
+    padding-left: 20px;
+}
+  
+.search-box:hover > .pesq-button{ 
+    margin-left: -50px;  
+    margin-top: -5px;
+    background: #447ce7;
+}
+  
+.search-box:hover > .pesq-button .loupe-black{
+    display: none;
+}
+  
+.search-box:hover > .pesq-button.loupe-blue{
+    display: block;
+    margin-left: -65px;
+    margin-top: 5px;
+}
+  
+.loupe-blue{
+    display: none;
+}

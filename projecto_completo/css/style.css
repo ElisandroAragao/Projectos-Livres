@@ -1,0 +1,328 @@
+@charset "UTF-8";
+
+body p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    text-align: justify;
+}
+
+#ads{
+    top: -130px;
+}
+
+.alert{
+    z-index: 3;
+    position: absolute;
+    width: 78%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#busca-area{
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 65%;
+}
+
+.carousel-caption{
+    top: 20%;
+    transform: translate(0%, 0%);
+    text-align: center;
+}
+
+.carousel-caption h5{
+    font-size: 16pt;
+    font-weight: 800;
+}
+
+.carousel-caption p{
+    color: #000;
+    font-weight: 400;
+}
+
+.carousel-inner{
+    height: 75vh;
+    border-radius: 10px;
+    bottom: -125px;
+}
+
+.confirm{
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#container{
+    background-color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 6px;
+    margin-top: 0px;
+}
+
+#close-btn-info{
+    background-color: #4a4444;
+    color: #fff;
+}
+
+#devel-content{
+    margin-top: -40px;
+}
+
+.escolas{
+    width: 50%;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+.formulario{
+    background: #cecece;
+}
+
+.h1{
+    text-transform: uppercase;
+    position: relative;
+    bottom: -30px;
+}
+
+.icon a{
+    position: static;
+    text-align: end;
+}
+
+.icon a img{
+    width: 35px;
+}
+
+#link{
+    padding-left: 85px;
+    font-size: 20pt;
+    font-family: cursive;
+    font-weight: bolder;
+    margin-top: -22px;
+}
+
+.main-part{
+    background-color: #cecece4d;
+}
+
+#menu{
+    top: 10px;
+    left: 5px;
+    position: absolute;
+}
+
+#menuNavbar{
+    position: relative;
+    padding-left: 0px;
+    text-align: left;
+    top: 20px;
+    padding-bottom: 15px
+}
+
+#menuNavbar a{
+    padding-top: 5px;
+}
+
+.navbar{
+    font-family: cursive;
+}
+
+.main-part p{
+    text-align: justify;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#pagination{
+    margin: auto;
+    padding: 10px;
+    width: 150px;
+}
+
+.text{
+    margin-top: 200px;
+}
+
+
+/** Index Code */
+.mg {
+    width: 30px;
+}
+
+.mg2 {
+    width: 30px;
+}
+
+.icon { 
+    position: relative;
+    top: 0;
+    padding-left: 5px;
+    left: -100%;
+    transform: translate(100%, -10%);
+}
+
+#topc img {
+    width: 34px;
+    margin-top: -9px;
+}
+
+#sa {
+    width: 29px;
+}
+
+#flui {
+    background: #171613;
+    color: white;
+    margin-top: -10px;
+    height: 46px;
+}
+
+#m-d {
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+#m-d1 {
+    margin-left: -934px;
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.fir {
+    margin-top: -282px;
+}
+
+#car {
+    height: 463px;
+}
+
+#logo {
+    position: static;
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    left: 10px;
+    top: 5px;
+    margin-left: -80px;
+}
+
+
+
+#nav-b  {
+    margin-left: 390px;
+}
+
+
+
+@media(max-width:732px){#m-d1{
+    opacity: 0;
+}}
+
+
+@media(max-width:732px){#logo{
+    margin-left: 194px;
+    margin-top: -17px;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 30px;
+}}
+
+.nborda {
+    position: absolute;
+    width: 100%;
+    height: 463px;
+    background: #000000b0;
+    margin-top: -463px;
+}
+
+.fir {
+    position: relative;
+    z-index: 1000;
+}
+
+.paragrafo {
+    position: relative;
+    z-index: 100;
+}
+
+.btnproj {
+    margin-top: 11px;
+    display: inline-block;
+    background: #fbb448;
+    font-size: 17px;
+    padding: 8px 30px;
+    border-radius: 7px;
+    border: 2px solid #fbb448;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-left: -6px;
+    position: relative;
+    z-index: 100;
+}
+
+.texto {
+    text-align: center;
+    color: #fbb448;
+    margin-top: 39px;
+}
+
+.texto h1 {
+    font-size: 32px;
+}
+
+.texto p {
+    color: black;
+}
+
+#ind button {
+    margin-top: -40px;
+}
+
+.texto_0 {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 53px;
+}
+.texto_0 h1 {
+    color: #fbb448;
+    font-size: 35px;
+}
+
+.texto_0  {
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+}
+
+#sect {
+    position: absolute;
+    margin-top: 214px;
+}
+
+#sect button {
+    background: #fbb448;
+    border: 1px solid #fbb448;
+}
+
+#sect a {
+    background: #fbb448;
+    border: 1px solid #fbb448;
+}
+
+#botao {
+    z-index: 2;
+    position: relative;
+    background: #fbb448;
+    border: 1px;
+}
+
+
