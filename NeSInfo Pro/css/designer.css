@@ -1,0 +1,70 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #3498db;
+}
+
+h2{
+    text-align: center;
+    padding-bottom: 35px;
+    top: 0px;
+    text-decoration: underline;
+    color: #060505;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 16pt;
+}
+
+.app-form button{
+    width: 50%;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid #1abc9c;
+    background-color: #1abc9c;
+    color: #fff;
+    transition: background-color .3s ease;
+    cursor: pointer;
+}
+
+.app-form .next{
+    width: 50%;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid #1abc9c;
+    background-color: #1abc9c;
+    color: #fff;
+    transition: background-color .3s ease;
+    cursor: pointer;
+    margin-right: -5px;
+}
+
+.app-form button:hover{
+    background-color: #16a085;
+}
+
+/** PAYMENT AREA */
+
+form{
+    background-color: #fff;
+    width: 100%;
+    max-width: 680px;
+    padding: 45px;
+}
+
+.btn{
+    width: 100%;
+    height: 45px;
+    text-align: center;
+}

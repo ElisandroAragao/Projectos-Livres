@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Confirmacao</title>
+
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="shortcut icon" href="./img/NeSInfo.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="cadastrar">
+        <div class="formulario">                
+            <section class="sec-form">
+                <form action="print.html" method="post" id="fContato" oninput="calc()">
+
+                    <h1>Formulário de Confirmação</h1>
+
+                    <fieldset id="usuario">
+                        <legend>Identificação do Usuário</legend>
+                        <p>Nome: <input type="text" name="tNome" id="cNome" size="15" maxlength="45" placeholder="Nome"/></p>
+                        <p>Sobre Nome: <input type="text" name="tSNome" id="cSNome" placeholder="Sobre Nome" size="20" maxlength="10"/></p>
+                        <p>Apelido: <input type="text" name="tApel" id="cApel" placeholder="Apelido" size="20" maxlength="20"></p>
+                        <p>E-mail: <input type="email" name="tMail" id="cMail" size="35" maxlength="45" placeholder="nome@gmail.com"/></p>  
+                        <fieldset id="sexo">
+                            <legend>Sexo:</legend>
+                                <input type="radio" name="tSexo" id="cMasc" checked>
+                                <label for="cMasc"> Masculino</label><br>
+                                <input type="radio" name="tSexo" id="cFem">
+                                <label for="cFem"> Feminino</label>
+                        </fieldset>
+                        <p>Data de Nascimento: <input type="date" name="tData" id="cData"></p>
+                    </fieldset>
+    
+                    <fieldset id="endereco">
+                        <legend>Endereço do Usuário</legend>
+
+                        <p><label for="cBai">Bairro:</label>
+                            <input type="text" name="tBai" id="cBai" maxlength="40" size="20" placeholder="Seu Bairro" list="bairro">
+                            <datalist id="bairro">
+                                <option value="Cazenga"></option>
+                                <option value="Cacuaco"></option>
+                                <option value="Viana"></option>
+                                <option value="Belas"></option>
+                                <option value="Benfica"></option>
+                                <option value="São Paulo"></option>
+                                <option value="Cuca"></option>
+                                <option value="Hoji-Ya-Henda"></option>
+                                <option value="Morro Bento"></option>
+                            </datalist></p>
+                            <p><label for="cCid">Cidade:</label>
+                            <input type="text" name="tCid" id="cCid" maxlength="40" size="20" placeholder="Sua Cidade" list="cidades">
+                                <datalist id="cidades">
+                                <option value="Luanda"></option>
+                                <option value="Bengo"></option>
+                                <option value="Benguela"></option>
+                                <option value="Luena"></option>
+                                <option value="Porto Amboin"></option>
+                                <option value="Menongue"></option>
+                                <option value="Ondjiva"></option>
+                            </datalist></p>
+
+                        <p><label for="cEst">Província:</label>
+                        <select name="tEst" id="cEst">
+                            <optgroup label="Região Sudeste">
+                                <option value="">Bengo</option>
+                                <option>Benguela</option>
+                                <option>Bié</option>
+                                <option value="CB">Cabinda</option>
+                                <option value="CN">Cunene</option>
+                                <option value="CC">Cuando Cubango</option>
+                                <option>Huambo</option>
+                                <option>Huila</option>
+                                <option value="KS">Kwanza Sul</option>
+                            </optgroup>
+                            <optgroup label="Região Nordeste">
+                                <option value="KN">Kwanza Norte</option>
+                                <option value="LD" selected>Luanda</option>
+                                <option value="LS">Lunda Sul</option>
+                                <option value="LN">Lunda Norte</option>
+                                <option value="MJ">Malanje</option>
+                                <option>Móxico</option>
+                                <option value="UG">Uíge</option>
+                                <option>Namibe</option>
+                                <option value="ZR">Zaire</option>
+                            </optgroup>
+                        </select></p>
+
+                        <p>Número: <input type="tel" name="tNum" id="cNum" minlength="12" maxlength="16" placeholder="+244 000-000-000"></p>
+                    </fieldset>
+
+                    <fieldset id="curso">
+                        <legend>Curso e Instituição</legend>
+                        <p>Escolha o tipo e o nome do curso</p>
+                        <p><label for="cCur">Curso:</label>
+                            <select name="tCur" id="cCur">
+                                <optgroup label="Cursos Tecnologicos">
+                                    <option>Informática Geral</option>
+                                    <option>Sistema de Informática e Multimídia</option>
+                                    <option>Electrecidade</option>
+                                    <option>Gestão de Recursos Humanos</option>
+                                    <option>Construção Cívil</option>
+                                </optgroup>
+                                <optgroup label="Cursos de Saúde">
+                                    <option>Enfermagem</option>
+                                    <option selected>Análises Clínicas</option>
+                                    <option>Medicina</option>
+                                    <option>Farmácia</option>
+                                    <option>Psicologia</option>
+                                    <option>Pediatria</option>
+                                    <option>Nutricionismo</option>
+                                    <option>Fisioterapia</option>
+                                </optgroup>
+                            </select></p>
+
+                            <p><label for="cInst">Instituição:</label>
+                                <select name="tInst" id="cInst">
+                                        <option selected>Instituto Politécnico Privado Sapemua</option>
+                                        <option>Instituto Politécnico Privado Ngola Kiluange</option>
+                                </select></p>
+
+                    </fieldset>
+                    <fieldset id="mensagem">
+                        <legend>Entrega de Documentos</legend>
+                        <p><label for="cFoto">Foto: <input type="file" class="doc" name="tFoto" id="cFoto"></label></p>
+                        <p><label for="cBI">Cópia do BI: <input type="file" class="doc" name="tBI" id="cBI"></label></p>
+                    </fieldset>
+    
+                    <fieldset id="pagamento">
+                        <legend>Efectuar Pagamentos</legend>
+                        <p>Preencha os campos abaixo para que o seu formulário seja aceite.</p>
+                        <p>
+                            <input type="checkbox" name="tMat" checked>
+                            <label for="cMat">Valor de Confirmação: <input type="number" name="tMat" id="cMat" min="0" max="1" placeholder=""></label><br>
+                            <input type="checkbox" name="tCart" checked>
+                            <label for="cCart">Cartão de Estudante: <input type="number" name="tCart" id="cCart" min="0" max="1" placeholder=""></label></p>
+                            
+                            <p><label for="cTot">Preço Total: Kz</label>
+                            <input type="text" name="tTot" id="cTot" placeholder="Total a Pagar" readonly></p>
+                    </fieldset>
+    
+                    <div id="btn">
+                        <button onclick="retroceder()"> << Retroceder </button>
+                        <button onclick="next()" class="next"> Seguinte >> </button>
+                    </div>
+            </form>
+
+            <script src="js/script.js"></script>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

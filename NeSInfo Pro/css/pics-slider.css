@@ -1,0 +1,235 @@
+
+
+/** SLIDER SHOW */
+
+.containerproje .slides-container:nth-child(1) .slide{
+    background: url(../img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+
+.containerproje .slides-container:nth-child(2) .slide{
+    background: url(../img/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+
+.containerproje .slides-container:nth-child(3) .slide{
+    background: url(../img/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+}
+
+.containerproje .slides-container:nth-child(2) .slide{
+    background: url(../img/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+
+.containerproje .slides-container:nth-child(3) .slide{
+    background: url(../img/5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+}
+
+.containerproje .slides-container:nth-child(2) .slide{
+    background: url(../img/6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+
+.containerproje .slides-container:nth-child(3) .slide{
+    background: url(../img/7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+}
+
+.containerproje .slides-container:nth-child(2) .slide{
+    background: url(../img/8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+}
+
+.containerproje .slides-container:nth-child(3) .slide{
+    background: url(../img/9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+}
+
+/** IMAGES TRATAMENT */
+
+.grid img{
+    width: 450px;
+    height: 350px;
+    cursor: pointer;
+    position: relative;
+    top: 100px;
+    display: inline-flex;
+}
+
+.grid img:hover {
+    cursor: pointer;
+}
+
+#lightbox {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    cursor: zoom-out;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+
+#lightbox:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+#lightbox.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+                
+#lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    padding: 4px;
+    background-color: rgb(204, 197, 197);
+    cursor: pointer;
+}
+
+/** FIELDSET STYLE */
+
+fieldset{
+    width: 1000px;
+    height: 725px;
+    position: relative;
+    margin-left: -65px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+fieldset legend{
+    text-transform: uppercase;
+    font-size: 15pt;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
+fieldset p{
+    font-size: 13pt;
+    display: block;
+}
+
+.imagens-inst{
+    position: absolute;
+    top: 200px;
+    left: 255px;
+}
+
+.field-mais{
+    display: inline-block;
+}
+
+.field-mais img{
+    height: 245px;
+    margin-left: 15px;
+    top: 30px;
+    margin-bottom: 15px;
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(0 0 0 / 50%);
+}
+
+.field-mais img:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.field-menos{
+    display: inline-block;
+}
+
+.field-menos img{
+    height: 245px;
+    margin-left: 15px;
+    top: 30px;
+    margin-bottom: 15px;
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgb(0 0 0 / 50%);
+}
+
+.poli-tec1{
+    display: inline-block;
+    position: absolute;
+    width: 1000px;
+    height: auto;
+    margin-left: -750px;
+    padding-left: 120px;
+}
+
+.poli-tec2{
+    display: inline-block;
+    position: absolute;
+    width: 1000px;
+    height: auto;
+    margin-left: -350px;
+    padding-left: 120px;
+    top: 330px;
+}
+
+.poli-tec3{
+    display: inline-block;
+    position: absolute;
+    width: 1000px;
+    height: auto;
+    margin-left: -750px;
+    padding-left: 120px;
+    top: 330px;
+}
+
+.poli-tec4{
+    display: inline-block;
+    position: absolute;
+    width: 1000px;
+    height: auto;
+    margin-left: -350px;
+    padding-left: 120px;
+}
+
+.poli-tec a{
+    text-decoration: none;
+    color: #156b9ce0;
+}
+
+.poli-tec a:hover{
+    color: #ffbb00;
+    text-decoration: underline;
+}
+
+.poli-tec .poli{
+    padding-top: 30px;
+}
