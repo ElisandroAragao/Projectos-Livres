@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Cadastro de Instituições</title>
+
+    <!-- Links Styles CSS -->
+    <link rel="stylesheet" href='css/style.css'>
+    <link rel="stylesheet" href='css/bootstrap.min.css'>
+</head>
+<body>
+    
+    <div class='container'>    
+        <form method='get' action='#' enctype='multipart/form-data' class='needs-validation' novalidate>
+            <h2 class='display-6'>Cadastrar Instituição</h2>
+
+            <div class='container row mb-3 g-2'>
+                <div class='col-7'>
+                    <label for='nome_inst' class='form-label'>Nome da Instituição</label>
+                    <input type='text' name='nome_inst' id='nome_inst' class='form-control' required>
+                </div>
+                <div class='col-3'>
+                    <label for='nif_inst' class='form-label'>NIF</label>
+                    <input type='text' name='nif_inst' id='nif_inst' class='form-control' required>
+                </div>
+            </div>
+
+            <hr>
+            <h2 class="display-6">Escolha Imagens</h2>
+            <div class='container row mb-3 g-2 col-5'>
+                <label for='image' class='form-label'>Insira aqui as imagens</label>
+                <input type='file' class='form-control' name='image_inst' id='image' accept='image/*' required>
+                <input type='file' class='form-control' name='image_inst' id='image' accept='image/*' required>
+            </div>
+            <hr>
+            <button class='btn btn-primary container text-center col-8'>Cadastrar</button>
+        </form>
+    </div>
+
+    <!-- Scripts JavaScript -->
+    <script src='js/script.js'></script>
+    <script src='js/bootstrap.bundle.min.js'></script>
+
+    <script>
+        /** Validation Formulary */
+        (function () {
+        'use strict'
+        
+        var forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+            .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+            })
+        })()
+    </script>
+</body>
+</html>
